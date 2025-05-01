@@ -514,6 +514,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2135271849}
+  - component: {fileID: 2135271850}
   m_Layer: 0
   m_Name: JenkaManager
   m_TagString: Untagged
@@ -536,63 +537,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &2136708803
-PrefabInstance:
+--- !u!114 &2135271850
+MonoBehaviour:
   m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 3731095456351947251, guid: c185911e5b05ed845b2312e5ac24a121, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -3.11
-      objectReference: {fileID: 0}
-    - target: {fileID: 3731095456351947251, guid: c185911e5b05ed845b2312e5ac24a121, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 3731095456351947251, guid: c185911e5b05ed845b2312e5ac24a121, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3731095456351947251, guid: c185911e5b05ed845b2312e5ac24a121, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3731095456351947251, guid: c185911e5b05ed845b2312e5ac24a121, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3731095456351947251, guid: c185911e5b05ed845b2312e5ac24a121, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3731095456351947251, guid: c185911e5b05ed845b2312e5ac24a121, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3731095456351947251, guid: c185911e5b05ed845b2312e5ac24a121, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3731095456351947251, guid: c185911e5b05ed845b2312e5ac24a121, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3731095456351947251, guid: c185911e5b05ed845b2312e5ac24a121, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4957965207634576531, guid: c185911e5b05ed845b2312e5ac24a121, type: 3}
-      propertyPath: m_Name
-      value: Jenga 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: c185911e5b05ed845b2312e5ac24a121, type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2135271848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 547b7915a356e794aa96bdafe0d5c686, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  layers: 3
+  piecesPerLayer: 3
+  piecePrefabs: []
+  pieceSpacing: 0
+  pieceHeight: 0.5
+  pieceLength: 0.5
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -600,5 +562,4 @@ SceneRoots:
   - {fileID: 2004838896}
   - {fileID: 106075422}
   - {fileID: 256592979}
-  - {fileID: 2136708803}
   - {fileID: 2135271849}
