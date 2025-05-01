@@ -42,6 +42,12 @@ public class JenkaManager : MonoBehaviour
         //centro da camada :metade do tamanho total ocupado
         float totalWidth = (piecesPerLayer - 1) * (pieceLength + pieceSpacing);
         Vector3 startOffset = -direction * (totalWidth / 2f);
+
+
+        for (int i = 0; i < piecesPerLayer; i++)
+        {
+
+        }
     }
 
 
