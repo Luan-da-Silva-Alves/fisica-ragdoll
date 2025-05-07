@@ -254,7 +254,7 @@ GameObject:
   - component: {fileID: 256592976}
   m_Layer: 0
   m_Name: Plane
-  m_TagString: Untagged
+  m_TagString: GameOver
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -343,7 +343,7 @@ Transform:
   m_GameObject: {fileID: 256592975}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.3781571, y: 1.2469, z: -16.2138}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 4, y: 4, z: 6.6161895}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -549,9 +549,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 547b7915a356e794aa96bdafe0d5c686, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  layers: 3
+  layers: 6
   piecesPerLayer: 3
-  piecePrefabs: []
+  piecePrefabs:
+  - {fileID: 4957965207634576531, guid: c185911e5b05ed845b2312e5ac24a121, type: 3}
+  - {fileID: 4957965207634576531, guid: 9840d791db9c97b46874c62e97904b03, type: 3}
+  - {fileID: 4957965207634576531, guid: 9840d791db9c97b46874c62e97904b03, type: 3}
+  - {fileID: 4957965207634576531, guid: 9840d791db9c97b46874c62e97904b03, type: 3}
+  - {fileID: 4957965207634576531, guid: 9840d791db9c97b46874c62e97904b03, type: 3}
   pieceSpacing: 0
   pieceHeight: 0.5
   pieceLength: 0.5

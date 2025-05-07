@@ -46,6 +46,11 @@ public class JenkaManager : MonoBehaviour
 
         for (int i = 0; i < piecesPerLayer; i++)
         {
+            GameObject prefab = piecePrefabs[Random.Range(0, piecePrefabs.Count)];
+            Vector3 offset = direction * i * (pieceLength + pieceSpacing);
+            Vector3 spawnPosition = basePosition + startOffset + offset;
+
+            Instantiate(prefab, spawnPosition, rotation);
 
         }
     }
